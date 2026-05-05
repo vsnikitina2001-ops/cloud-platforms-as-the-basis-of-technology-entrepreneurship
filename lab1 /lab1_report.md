@@ -15,27 +15,27 @@ Date of finished:
 **Название:** `vborisova-sa-lab1`  
 **Роль:** Storage Admin  
 
-*(Скриншот 1 — создание service account)*  
+<img width="1439" height="750" alt="Снимок экрана 2026-05-05 в 18 32 15" src="https://github.com/user-attachments/assets/327aad82-b099-4e5a-95ee-1de6d5147c95" />
+<img width="580" height="566" alt="Снимок экрана 2026-05-05 в 18 34 15" src="https://github.com/user-attachments/assets/fa6f289a-42ee-4d95-b3c2-701bcfe395cb" />
 
 ---
 
 ### 2. Создание виртуальной машины  
 
 В сервисе **Compute Engine** создана виртуальная машина со следующими параметрами:
+<img width="768" height="313" alt="Снимок экрана 2026-05-05 в 18 38 34" src="https://github.com/user-attachments/assets/edf5a923-bcc0-4a0b-8d80-8e2c0158d497" />
 
 - **Название:** `vborisova-vm-lab1`  
 - **Тип:** e2-micro  
 - **Режим:** Spot  
 
-*(Скриншот 2 — создание VM)*  
+<img width="1390" height="289" alt="Снимок экрана 2026-05-05 в 18 38 09" src="https://github.com/user-attachments/assets/36accaca-9b0b-4b9e-9cea-766c41decc7b" />
 
 ---
 
 ### 3. Подключение к VM  
 
 Подключение выполнено через SSH из веб-консоли GCP.  
-
-*(Скриншот 3 — SSH подключение)*  
 
 ---
 
@@ -51,6 +51,8 @@ ls -lah
 
 Файлы успешно отображаются в системе.
 
+<img width="887" height="417" alt="Снимок экрана 2026-05-05 в 18 42 20" src="https://github.com/user-attachments/assets/96b01779-37cd-421a-9c4c-643ca585e692" />
+
 ---
 
 ### 5. Изменение роли Service Account  
@@ -60,7 +62,7 @@ ls -lah
 - **Было:** Storage Admin  
 - **Стало:** Compute Viewer  
 
-*(Скриншот 5 — изменение роли)*  
+<img width="1436" height="710" alt="Снимок экрана 2026-05-05 в 19 37 13" src="https://github.com/user-attachments/assets/5da4e7ea-5afc-4fa1-b4bc-65f39efc508a" />
 
 ---
 
@@ -70,6 +72,8 @@ ls -lah
 gcloud storage cp gs://lab1-bucket-itmo/* .
 
 Файлы были успешно скопированы, несмотря на отсутствие роли доступа к Cloud Storage.
+
+<img width="745" height="182" alt="Снимок экрана 2026-05-05 в 19 47 08" src="https://github.com/user-attachments/assets/885309fb-c84a-431a-bcac-612c28b13004" />
 
 ---
 
