@@ -19,7 +19,7 @@ Date of finished:
 
 ## 2. Загрузка файлов
 
-Загрузила 3–4 изображения в созданный bucket через функцию **Upload files**.
+Загрузила 4 изображения в созданный bucket через функцию **Upload files**.
 
 <img width="1188" height="382" alt="Снимок экрана 2026-05-08 в 02 38 58" src="https://github.com/user-attachments/assets/159bc245-6ad7-4459-a349-903ffe33ad2b" />
 
