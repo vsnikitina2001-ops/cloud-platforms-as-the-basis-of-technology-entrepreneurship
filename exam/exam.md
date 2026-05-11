@@ -6,4 +6,4 @@ Group: U4125\
 Author: Borisova Valeriya Sergeevna\
 Lab: exam\
 Date of create: 11.05.2026\
-Date of finished:
+
